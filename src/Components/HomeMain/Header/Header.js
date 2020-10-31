@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div >
+            <nav style ={{backgroundColor: '#C4C3C3'}}class="navbar navbar-expand-lg navbar-light ">
                 <a class="navbar-brand ml-5                                             " href="#">Najah's Portfolio</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -27,6 +27,9 @@ const Header = () => {
                         </li>
                         <li class="nav-item mr-5">
                             <a class="nav-link" href="#">About me</a>
+                        </li>
+                        <li class="nav-item mr-5">
+                            <a class="nav-link" href="#">Contact me</a>
                         </li>
                        
                     </ul>
